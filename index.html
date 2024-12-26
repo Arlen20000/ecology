@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Проект по защите экологии Кыргызстана. Озеленение, очистка рек и борьба с загрязнением.">
+    <meta name="keywords" content="экология, Кыргызстан, загрязнение, озеленение, реки, леса, защита природы">
+    <meta name="author" content="NewEcology">
+    <title>Экология Кыргызстана</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    /* Основной баннер */
+    .banner {
+        background-image: url('images/ecology.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 0;
+        position: relative;
+    }
+    
+    /* Полупрозрачный фон за текстом */
+    .banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+        z-index: 1;
+    }
+    
+    /* Текст в баннере */
+    .banner h1, .banner p {
+        position: relative;
+        z-index: 2;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Тень для текста */
+    }
+    
+    /* Кнопка */
+    .banner a {
+        position: relative;
+        z-index: 2; /* Убедитесь, что кнопка поверх фона */
+    } 
+</style>    
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Экология Кыргызстана</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">О проекте</a></li>
+                <li class="nav-item"><a class="nav-link" href="pollution.html">Загрязнение</a></li>
+                <li class="nav-item"><a class="nav-link" href="solutions.html">Решения</a></li>
+                <li class="nav-item"><a class="nav-link" href="plantingplan2024-25.html">План озеленения</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Главная страница -->
+    <section class="banner text-center">
+        <h1>Защитим природу Кыргызстана</h1>
+        <p>Помогите нам улучшить экологию в Кыргызстане — посадите дерево или примите участие в наших проектах!</p>
+        <a href="plantingplan2024-25.html" class="btn btn-light">Присоединиться</a>
+    </section>
+
+    <!-- Информация о проекте -->
+    <section class="container mt-5">
+        <h2>О проекте</h2>
+        <div class="container mt-5">
+            <h2>Наш проект по озеленению</h2>
+            <p>В 2024 году мы планируем высадить 500,000 деревьев по всему Кыргызстану.</p>
+            <a href="plantingplan2024-25.html" class="btn btn-success">Узнать больше</a>
+        </div>
+        
+        <p>Наш проект направлен на улучшение экологической ситуации в Кыргызстане. Мы работаем над решениями проблем загрязнения воздуха, воды и переработки отходов. Присоединяйтесь к нашим усилиям по восстановлению экосистемы страны!</p>
+    </section>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Загрязнение воздуха</h5>
+                        <p class="card-text">Уровень загрязнения в Бишкеке превышает норму на 40%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Лесозаготовки</h5>
+                        <p class="card-text">В Кыргызстане ежегодно вырубается до 5% лесов.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Загрязнение воды</h5>
+                        <p class="card-text">30% воды в реках загрязнены промышленными отходами.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="news">
+        <div class="container">
+          <h2>Последние новости</h2>
+          <ul>
+            <li><a>Загрязнение воздуха в Бишкеке снизилось на 10% за последний месяц.</a></li>
+            <li><a>Международный день чистоты: экологические мероприятия в Кыргызстане.</a></li>
+          </ul>
+        </div>
+      </section>
+      <section id="goals">
+        <div class="container">
+          <h2>Наши цели на 2024-2025</h2>
+          <ul>
+            <li>Посадить 100,000 деревьев по всему Кыргызстану.</li>
+            <li>Снизить уровень загрязнения воздуха в Бишкеке на 20% в следующие 3 года.</li>
+            <li>Обучить 50,000 школьников основам экологической осведомленности.</li>
+          </ul>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+          // Инициализация AOS для анимаций
+          AOS.init({
+              duration: 1000, // Время анимации
+          });
+      </script>
+      <section class="container mt-5 text-center">
+        <h3 class="text-center" data-aos="fade-up">Подписывайтесь на нас в социальных сетях</h3>
+        <div class="social-icons" data-aos="fade-up" data-aos-delay="600">
+            <a href="https://www.facebook.com" target="_blank" class="btn btn-outline-primary btn-lg m-2">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://twitter.com" target="_blank" class="btn btn-outline-info btn-lg m-2">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="btn btn-outline-danger btn-lg m-2">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="btn btn-outline-danger btn-lg m-2">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="btn btn-outline-primary btn-lg m-2">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+        </div>
+    </section>
+    
+    <!-- Футер -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Экология Кыргызстана. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

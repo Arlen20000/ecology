@@ -1,0 +1,21 @@
+/* Основные стили страниц */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #about, #main {
+    padding: 40px 0;
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
